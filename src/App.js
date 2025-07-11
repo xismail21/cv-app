@@ -352,13 +352,13 @@ const Contact = () => (
       <a href="tel:+4915739802622" style={{ color: colors.primary, textDecoration: 'none' }}>
         <FaPhone style={{ marginRight: '0.5rem' }} /> +49 1573 9802622
       </a>
-      <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noreferrer" style={{ color: colors.primary, textDecoration: 'none' }}>
+      <a href="https://www.linkedin.com/in/esmail-m-alhussein-360698159/" target="_blank" rel="noreferrer" style={{ color: colors.primary, textDecoration: 'none' }}>
         <FaLinkedin style={{ marginRight: '0.5rem' }} /> LinkedIn
       </a>
-      <a href="https://github.com/yourgithub" target="_blank" rel="noreferrer" style={{ color: colors.primary, textDecoration: 'none' }}>
+      <a href="https://github.com/xismail21" target="_blank" rel="noreferrer" style={{ color: colors.primary, textDecoration: 'none' }}>
         <FaGithub style={{ marginRight: '0.5rem' }} /> GitHub
       </a>
-      <a href="https://yourportfolio.com" target="_blank" rel="noreferrer" style={{ color: colors.primary, textDecoration: 'none' }}>
+      <a href="https://xismail21.github.io/cv-app" target="_blank" rel="noreferrer" style={{ color: colors.primary, textDecoration: 'none' }}>
         <FaGlobe style={{ marginRight: '0.5rem' }} /> Portfolio
       </a>
     </div>
