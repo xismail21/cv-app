@@ -215,7 +215,7 @@ const Header = () => (
       </li>
       <li>
         <a
-          href="https://linkedin.com/in/esmail"
+          href="https://www.linkedin.com/in/esmail-m-alhussein-360698159/"
           target="_blank"
           rel="noopener noreferrer"
           style={styles.contactItem}
@@ -225,7 +225,7 @@ const Header = () => (
       </li>
       <li>
         <a
-          href="https://github.com/esmail"
+          href="https://github.com/xismail21"
           target="_blank"
           rel="noopener noreferrer"
           style={styles.contactItem}
@@ -235,7 +235,7 @@ const Header = () => (
       </li>
       <li>
         <a
-          href="https://esmail-portfolio.de"
+          href="https://xismail21.github.io/cv-app/"
           target="_blank"
           rel="noopener noreferrer"
           style={styles.contactItem}
