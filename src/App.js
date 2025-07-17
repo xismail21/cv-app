@@ -403,6 +403,18 @@ const AktuelleProjekte = () => (
           dynamischer Preisberechnung. Fokus auf Benutzerfreundlichkeit und SEO.
         </p>
         <p>
+          Live: {' '}
+          <a
+            href="https://snok-hh.de"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{ color: colors.secondary, textDecoration: 'underline', cursor: 'pointer' }}
+            aria-label="Snok HH Webshop öffnen"
+          >
+            https://snok-hh.de
+          </a>
+        </p>
+        <p>
           <strong>Status:</strong> <span style={styles.yellow}>🟡 Testphase</span>
         </p>
       </div>
@@ -415,6 +427,18 @@ const AktuelleProjekte = () => (
         <p>
           Website für Event-Veranstalter mit Nachfrage-Funktion und SEO-Optimierung. Responsive und
           schnelle Ladezeiten.
+        </p>
+        <p>
+          Live: {' '}
+          <a
+            href="https://glamour-event-nord.de"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{ color: colors.secondary, textDecoration: 'underline', cursor: 'pointer' }}
+            aria-label="Glamour Event Norde Website öffnen"
+          >
+            https://glamour-event-nord.de
+          </a>
         </p>
         <p>
           <strong>Status:</strong> <span style={styles.yellow}>🟡 Testphase</span>
@@ -438,6 +462,7 @@ const AktuelleProjekte = () => (
   </section>
 );
 
+
 const Berufserfahrung = () => (
   <section style={styles.section}>
     <h2 style={styles.sectionTitle}>BERUFSERFAHRUNG</h2>
@@ -456,17 +481,31 @@ const Berufserfahrung = () => (
       </p>
     </div>
 
-    <div>
-      <h3 style={styles.subSectionTitle}>BBQ Baumann Bildung & Qualifikation GmbH | Juli 2024 – Januar 2025</h3>
-      <strong>Praktikant Fachinformatik/Anwendungsentwicklung</strong>
-      <ul style={styles.list}>
-        <li>Entwicklung eines adaptiven Lernmanagementsystems (LMS) mit Node.js und SQL</li>
-        <li>Integration von Frontend und Backend zur Verbesserung der Benutzererfahrung</li>
-      </ul>
-      <p>
-        Status: <span style={styles.green}>🟢 Abgeschlossen</span>
-      </p>
-    </div>
+   <div>
+  <h3 style={styles.subSectionTitle}>
+    BBQ Baumann Bildung & Qualifikation GmbH | Juli 2024 – Januar 2025
+  </h3>
+  <strong>Praktikant Fachinformatik/Anwendungsentwicklung</strong>
+  <ul style={styles.list}>
+    <li>
+      Entwicklung eines adaptiven Lernmanagementsystems (LMS) mit Node.js und SQL –{' '}
+      <a
+        href="https://lms-webapp.onrender.com/login"
+        target="_blank"
+        rel="noopener noreferrer"
+        style={{ color: '#145DA0', textDecoration: 'underline', cursor: 'pointer' }}
+        aria-label="LMS Webapp öffnen"
+      >
+        LMS-Webapp besuchen
+      </a>
+    </li>
+    <li>Integration von Frontend und Backend zur Verbesserung der Benutzererfahrung</li>
+  </ul>
+  <p>
+    Status: <span style={styles.green}>🟢 Abgeschlossen</span>
+  </p>
+</div>
+
   </section>
 );
 
