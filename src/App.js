@@ -490,7 +490,7 @@ const Berufserfahrung = () => (
     <li>
       Entwicklung eines adaptiven Lernmanagementsystems (LMS) mit Node.js und SQL –{' '}
       <a
-        href="https://lms-webapp.onrender.com/login"
+        href="https://lms-webapp.onrender.com"
         target="_blank"
         rel="noopener noreferrer"
         style={{ color: '#145DA0', textDecoration: 'underline', cursor: 'pointer' }}
